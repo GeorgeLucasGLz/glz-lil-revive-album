@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Darkness';
+    src: url(../fonts/Darkness.otf) format('opentype');
+
+}
+
+@font-face {
+    font-family: 'DarkMode';
+    src: url(../fonts/Darkmode.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Retroica';
+    src: url(../fonts/Retroica.ttf) format('truetype');
+}
+
+
+header {
+    font-family: 'Darkness', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+
+main {
+    font-family: 'DarkMode', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+
+}
+
+main .song-number{
+    font-family: 'Darkness', sans-serif;
+    text-transform: uppercase;
+}
+
+main .informacoes-painel {
+    font-family: 'Darkness', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+footer{
+    background-color: black;
+    font-family: 'Retroica';
+    font-size: 15px;
+    text-shadow: 2px 2px 30px #fff;
+    letter-spacing: 1px;
+}

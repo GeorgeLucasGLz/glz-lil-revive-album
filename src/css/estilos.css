@@ -1,0 +1,215 @@
+header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    top: 10px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 10px whitesmoke
+}
+
+header:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+body {
+    background-image: url(../imagens/dark-forest.jpg);
+
+    background-color: black;
+}
+
+main {
+    padding: 150px;
+}
+
+main .titulo {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    white-space: nowrap;
+    top: -70px;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 1px #000;
+    text-shadow: 2px 2px 20px #fff;
+
+    animation: animate__pulse;
+    animation-duration: 2s;
+}
+
+main .song-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -55px;
+    font-size: 20px;
+    text-shadow: 2px 2px 20px #fff;
+}
+
+main .informacoes-painel .first-music {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-shadow: 3px 3px 5px silver;
+    font-size: 20px;
+}
+
+main .informacoes-painel {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    text-shadow: 3px 3px 5px silver;
+}
+
+
+main .cartao-music {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -50px;
+    gap: 10px;
+}
+
+
+main .jpg {
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+main .jpg:hover {
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out;
+
+}
+
+main .jpg {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 2px 2px 7px silver;
+
+
+}
+
+main .box-music {
+
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 7px silver;
+    padding: 5px;
+    size: 10px;
+
+
+}
+
+main #text-long {
+    font-size: 17px;
+}
+
+
+
+main .informacoes {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
+
+main .more-songs-here {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 25px;
+    text-shadow: 2px 2px 10px #fff;
+    letter-spacing: 2px;
+
+
+}
+
+main .painel-music {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+
+
+
+}
+
+main .cartao-painel {
+    width: 250px;
+    box-shadow: 2px 2px 10px purple;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    gap: 10px;
+    border-radius: 20px;
+
+}
+
+main .cartao-painel:hover {
+
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out
+}
+
+
+main .imagem-painel {
+    width: 130px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 10px violet;
+    display: flex;
+
+
+}
+
+main .name-music {
+
+    text-shadow: 2px 2px 10px #fff;
+    background-color: rgba(128, 0, 128, 0.3);
+    padding: 5px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+
+
+}
+
+main .name-music .heart{
+    white-space: nowrap;
+}
+
+
+
+footer {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
